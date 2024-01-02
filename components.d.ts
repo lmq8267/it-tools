@@ -180,6 +180,7 @@ declare module 'vue' {
     QrCodeGenerator: typeof import('./src/tools/qr-code-generator/qr-code-generator.vue')['default']
     RandomPortGenerator: typeof import('./src/tools/random-port-generator/random-port-generator.vue')['default']
     ResultRow: typeof import('./src/tools/ipv4-range-expander/result-row.vue')['default']
+    RmbD: typeof import('./src/tools/rmb-d/rmb-d.vue')['default']
     RomanNumeralConverter: typeof import('./src/tools/roman-numeral-converter/roman-numeral-converter.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
