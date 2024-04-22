@@ -9,6 +9,7 @@ RUN npm install -g pnpm && pnpm i --frozen-lockfile
 COPY . .
 RUN pnpm build
 
+
 # production stage
 FROM nginx:stable-alpine AS production-stage
 COPY --from=build-stage /app/dist /usr/share/nginx/html
